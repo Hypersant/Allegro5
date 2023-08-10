@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="A5" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/A5" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/A5" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option use_console_runner="0" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-std=gnu++2b" />
+			<Add directory="/usr/include/allegro" />
+		</Compiler>
+		<Linker>
+			<Add library="/usr/lib/liballeg*" />
+			<Add directory="/usr/lib" />
+		</Linker>
+		<Unit filename="include/cAI.h" />
+		<Unit filename="include/cControl.h" />
+		<Unit filename="include/cPlayer.h" />
+		<Unit filename="include/cUnit.h" />
+		<Unit filename="include/sAABB.h" />
+		<Unit filename="include/sButtonCTL.h" />
+		<Unit filename="include/sRect.h" />
+		<Unit filename="include/sTextCTL.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/cAI.cpp" />
+		<Unit filename="src/cControl.cpp" />
+		<Unit filename="src/cPlayer.cpp" />
+		<Unit filename="src/cUnit.cpp" />
+		<Unit filename="src/sAABB.cpp" />
+		<Unit filename="src/sButtonCTL.cpp" />
+		<Unit filename="src/sRect.cpp" />
+		<Unit filename="src/sTextCTL.cpp" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

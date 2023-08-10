@@ -1,0 +1,115 @@
+# depslib dependency file v1.0
+1691696530 source:/home/noviochok/Desktop/Allegro_2023/A5/main.cpp
+	<iostream>
+	<string>
+	<vector>
+	<memory>
+	<experimental/random>
+	<ranges>
+	<allegro5/allegro.h>
+	<allegro5/allegro_font.h>
+	<allegro5/allegro_ttf.h>
+	<allegro5/allegro_primitives.h>
+	<allegro5/allegro_native_dialog.h>
+	<allegro5/allegro_image.h>
+	<allegro5/allegro_audio.h>
+	<allegro5/allegro_acodec.h>
+	"include/cControl.h"
+	"include/sTextCTL.h"
+	"include/sButtonCTL.h"
+	"include/sRect.h"
+	"include/sAABB.h"
+	"include/cUnit.h"
+	"include/cAI.h"
+	"cPlayer.h"
+
+1691438002 source:/home/noviochok/Desktop/Allegro_2023/A5/src/cControl.cpp
+	"../include/cControl.h"
+
+1691619565 /home/noviochok/Desktop/Allegro_2023/A5/include/cControl.h
+	<iostream>
+	<string_view>
+	"../include/sRect.h"
+	"../include/sAABB.h"
+	<allegro5/allegro.h>
+	<allegro5/allegro_font.h>
+
+1691438012 source:/home/noviochok/Desktop/Allegro_2023/A5/src/sTextCTL.cpp
+	"../include/sTextCTL.h"
+
+1691438020 /home/noviochok/Desktop/Allegro_2023/A5/include/sTextCTL.h
+	<string>
+	<string_view>
+	"../include/cControl.h"
+	"../include/sRect.h"
+	<allegro5/allegro.h>
+	<allegro5/allegro_font.h>
+	<allegro5/allegro_ttf.h>
+	<allegro5/allegro_primitives.h>
+	<allegro5/allegro_native_dialog.h>
+	<allegro5/allegro_image.h>
+	<allegro5/allegro_audio.h>
+	<allegro5/allegro_acodec.h>
+
+1691446030 source:/home/noviochok/Desktop/Allegro_2023/A5/src/sButtonCTL.cpp
+	"../include/sButtonCTL.h"
+
+1691446030 /home/noviochok/Desktop/Allegro_2023/A5/include/sButtonCTL.h
+	"../include/cControl.h"
+	"../include/sTextCTL.h"
+	"../include/sRect.h"
+	<iostream>
+	<experimental/random>
+	<allegro5/allegro.h>
+	<allegro5/allegro_font.h>
+	<allegro5/allegro_ttf.h>
+	<allegro5/allegro_primitives.h>
+	<allegro5/allegro_native_dialog.h>
+	<allegro5/allegro_image.h>
+	<allegro5/allegro_audio.h>
+	<allegro5/allegro_acodec.h>
+
+1691354631 source:/home/noviochok/Desktop/Allegro_2023/A5/src/sRect.cpp
+	"sRect.h"
+
+1691354692 /home/noviochok/Desktop/Allegro_2023/A5/include/sRect.h
+
+1691355234 source:/home/noviochok/Desktop/Allegro_2023/A5/src/cUnit.cpp
+	"cUnit.h"
+
+1691606649 /home/noviochok/Desktop/Allegro_2023/A5/include/cUnit.h
+	"../include/sRect.h"
+	"../include/sAABB.h"
+	<allegro5/allegro.h>
+	<allegro5/allegro_image.h>
+
+1691443740 /home/noviochok/Desktop/Allegro_2023/A5/include/sAABB.h
+	"../include/sRect.h"
+
+1691443736 source:/home/noviochok/Desktop/Allegro_2023/A5/src/sAABB.cpp
+	"sAABB.h"
+
+1691621103 /home/noviochok/Desktop/Allegro_2023/A5/include/cAI.h
+	<iostream>
+	<vector>
+	<string>
+	<utility>
+	"../include/sRect.h"
+	"../include/sAABB.h"
+
+1691459446 /home/noviochok/Desktop/Allegro_2023/A5/include/cPlayer.h
+	<vector>
+	<string>
+	<utility>
+	"../include/cUnit.h"
+	"../include/cAI.h"
+	<allegro5/allegro.h>
+	<allegro5/allegro_image.h>
+	<allegro5/allegro_primitives.h>
+
+1691696480 source:/home/noviochok/Desktop/Allegro_2023/A5/src/cAI.cpp
+	"cAI.h"
+
+1691458232 source:/home/noviochok/Desktop/Allegro_2023/A5/src/cPlayer.cpp
+	"cPlayer.h"
+
